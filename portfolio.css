@@ -1,0 +1,225 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #FAEBE4;
+}
+
+.logo {
+    height: 75px;
+    width: 75px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    float: right;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    color: lightcoral;
+}
+
+#my {
+    height: 400px;
+    width: 300px;
+    float: right;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-right: 350px;
+}
+
+.heading {
+    font-size: 100px;
+    color: rgb(55, 58, 61);
+    padding-left: 300px;
+    margin: 0px;
+}
+
+.v1 {
+    border-left: 3px solid rgb(55, 58, 61);
+    height: 600px;
+    left: 100px;
+    margin-left: -3px;
+    top: 150px;
+    position: absolute;
+}
+
+.v2 {
+    border-right: 3px solid rgb(55, 58, 61);
+    height: 600px;
+    right: 100px;
+    margin-right: -3px;
+    top: 150px;
+    position: absolute;
+}
+
+.container {
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    margin-top: 500px;
+}
+
+.ab {
+    width: 600px;
+    height: 500px;
+    background-color: #F7F7F7;
+    margin-left: 400px;
+}
+
+.me {
+    padding-top: 20px;
+    font-size: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    color: rgb(55, 58, 61);
+}
+
+.pink {
+    width: 300px;
+    height: 150px;
+    background-color: #FAEBE4;
+    float: left;
+    margin-left: 160px;
+    margin-top: -300px;
+}
+
+.res_head {
+    padding-top: 50px;
+    color: rgb(55, 58, 61);
+    text-align: center;
+    font-size: 40px;
+}
+
+.hr {
+    width: 50%;
+}
+
+.exp {
+    padding-top: 20px;
+    width: 600px;
+    margin-left: 400px;
+    color: rgb(55, 58, 61);
+}
+
+.em {
+    margin: 0px;
+    color: rgb(55, 58, 61);
+}
+
+.pen {
+    padding-bottom: 10px;
+}
+
+.edu {
+    padding-top: 10px;
+    width: 600px;
+    margin-left: 400px;
+    color: rgb(55, 58, 61);
+    padding-bottom: 50px;
+}
+
+.back {
+    width: 100%;
+    height: 950px;
+    background-color: #F7F7F7;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    justify-content: space-between;
+    background-color: #F7F7F7;
+}
+
+.item {
+    margin: 20px;
+}
+
+#contact {
+    height: 600px;
+}
+
+.box1 {
+    display: flex;
+}
+
+.b1 {
+    width: 50%;
+    background-color: rgb(206, 210, 214);
+}
+
+.b2 {
+    width: 50%;
+    background-color: #FAEBE4;
+}
+
+.pin {
+    text-align: center;
+    font-size: 20px;
+}
+
+form {
+    text-align: center;
+}
+
+input[type=text], select {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    background-color: #FAEBE4;
+    color: rgb(55, 58, 61);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+input[type=submit]:hover {
+    color: lightcoral;
+}

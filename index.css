@@ -1,0 +1,44 @@
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.content {
+    position: fixed;
+    margin-top: 80px;
+    color: white;
+    width: 100%;
+    padding: 20px;
+}
+
+#myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #fff;
+    color: #000;
+    cursor: pointer;
+    margin-top: 50px;
+    border: 2px solid #fff;
+}
+  
+#myBtn:hover {
+    background: none;
+    color: black;
+    border: 2px solid #fff;
+}
+
+.head {
+    font-size: 100px;
+    margin: 0px;
+}
+
+.data {
+    font-size: 30px;
+    margin: 0px;
+    font-weight: 900;
+}
